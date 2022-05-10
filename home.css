@@ -6,8 +6,8 @@ html{
 
 body{
  
-     background-color: #DEF4EB;
-     font-family: 'Montserrat', sans-serif;
+     background-color: #f0fcf7da;
+     font-family: 'Roboto', sans-serif;
      width: 100%;
      height: auto;
      margin: 0%;
@@ -17,9 +17,9 @@ body{
  nav {
     width: 100%;
     height: 100px;
-   
-  
 
+    background: linear-gradient(to bottom, rgba(1, 15, 6, 0.603) 25%, rgba(255, 255, 255, 0));
+    position: fixed;
   }
 
 
@@ -59,17 +59,17 @@ body{
   }
 
   .back{
-    width: 100%;
+    width: 60%;
   }
 
 
 nav a{
-    color: #264138;
+    color: #ffffff;
     text-decoration: none;
   }
 
 nav a.current {
-    color: #183a30;
+    color: #ffffff;
     font-weight: bold;
   }
 
@@ -102,11 +102,9 @@ nav a.current {
 
 .title-header{
   width: 100%;
-  height: 680px;
+  height: 1080px;
+  display: inline-block;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   background-image: url('images/background-home.png');
   background-repeat: no-repeat;
@@ -114,7 +112,7 @@ nav a.current {
   background-position: center;
   background-size: cover;
 
-  padding-bottom: 200px;
+
 
 }
 
@@ -122,127 +120,119 @@ nav a.current {
 
 
 .title-text{
-  width: 1000px;
+  width: 900px;
+
 text-align: center;
+float: right;
+
+margin-top: 300px;
+
 
 }
 
 
-.title{
-  width: 650px;
-
-margin: auto;
-
-}
-
-
-
-.subhead{
-  width: 100%;
+.landing-logo{
+  width: 700px;
   
-  font-size: 38px;
-  font-weight: bold;
-  color: #F0F6F1;
- margin: 0;
- 
-  line-height: 1.5em;
-  letter-spacing: -0.03em;
-
-
- 
 }
+
 
 
 .description{
-  width: 100%;
+  width: 700px;
   
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
   
  color: #F0F6F1;
- margin: 0;
-
- line-height: 161.4%;
+ 
+margin: auto;
   letter-spacing: -0.03em;
+
+  text-shadow: 2px 2px 5px #06160b59
 
 
 }
 
 .landing-info-container{
-  width: 100%;
- 
+  width: 700px;
+
   display: inline-block;
-    background-color: #def4ebda;
 
-    border-radius: 5px;
+  margin-top: 20px;
 }
 
-.landing-info-container h3{
-   
-  font-size: 22px;
-  
-  color: #123D26;
+.landing-info h3{
+  width: 100%;
+  background-color: #3B8067;
+   text-align: center;
+  font-size: 25px;
+  color: #F0F6F1;
+  margin: auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-
-.landing-info-box{
-  width: 33%;
- height: 270px;
-  float: left;
-
-  text-align: center;
-
-  border-right: solid .5px rgba(0, 0, 0, 0.151);
-}
 
 
 .landing-info{
 
-  width: 100%;
+  width: 49%;
 
   line-height: 25px;
   font-size: 17px;
   font-weight: 600;
 
-  color: #4D4E4D;
-  
+  color: #10462f;
 
-}
+  float: left;
 
-.landing-info ul{
-list-style-type: none;
 
 }
 
 
 .landing-info-contact{
-  width: 100%;
+  width: 90%;
   margin-bottom: 20px;
+  margin: auto;
+  background-color: #F0F6F1;
+  border-radius: 6px;
 
- 
-  display: inline-block
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+
 
 }
 
-.landing-image-background{
-  width: 50px;
-  height: 50px;
-  background-color: #3B8067;
-  border-radius: 5px;
-  margin-left: 30px;
-  margin-right: -40px;
-  float: left;
-  
-}
+
+
+
 
 .landing-info-image{
-  width: 30px;
-  margin-top: 10px;
+  width: 35px;
+ 
+  margin-left: 40px;
+
 
 }
 
 
+.landing-info-contact p{
+  width: 70%;
+  
+  font-size: 22px;
 
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
 
 
 
@@ -481,6 +471,10 @@ border: solid .5px rgba(43, 43, 43, 0.192);
 
 
 
+.service-link:hover{
+  background-color: white;
+  color: black;
+}
 
 
 
